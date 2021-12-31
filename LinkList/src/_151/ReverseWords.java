@@ -1,11 +1,15 @@
 package _151;
 
+import java.sql.Array;
 import java.util.Stack;
 
 public class ReverseWords {
     public static void main(String[] arg) {
         String s = "the sky is blue ";
         System.out.println(reverseWords(s));
+        String[] a = new String[10];
+        String[] b = new String[5];
+
     }
 
 
