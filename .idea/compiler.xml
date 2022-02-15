@@ -6,8 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Tree" />
         <module name="LeetCode" />
+        <module name="Stack_queue" />
+        <module name="Tree (1)" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Stack_queue" options="-parameters" />
+      <module name="Tree" options="-parameters" />
+      <module name="Tree (1)" options="-parameters" />
+    </option>
   </component>
 </project>
