@@ -1,10 +1,6 @@
 package _104;
 
-import sun.reflect.generics.tree.Tree;
-
-import java.util.Deque;
-import java.util.LinkedList;
-import java.util.List;
+import publicTool.ConstructTree;
 
 public class Solution {
     private static Integer maxAns = 0;
