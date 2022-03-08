@@ -3,8 +3,6 @@ package _450;
 import publicTool.ConstructTree;
 import publicTool.TreeNode;
 
-import java.util.List;
-
 public class DeleteNode {
     public static void main(String[] args) {
         Integer[] list = {5,3,6,2,4,null,7};
