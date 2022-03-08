@@ -6,14 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Tree" />
         <module name="LeetCode" />
         <module name="Stack_queue" />
-        <module name="Tree (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Tree" target="1.8" />
+      <module name="Tree (1)" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
