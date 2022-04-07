@@ -9,5 +9,9 @@ public class Test {
         deque.offerFirst(5);
         deque.offerFirst(6);
         deque.pollFirst();
+        deque.peek();
+        StringBuilder sb = new StringBuilder();
+        String a = "5";
+
     }
 }
