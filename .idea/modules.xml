@@ -7,9 +7,11 @@
       <module fileurl="file://$PROJECT_DIR$/Tree/Tree (1).iml" filepath="$PROJECT_DIR$/Tree/Tree (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/backtracking/backtracking.iml" filepath="$PROJECT_DIR$/backtracking/backtracking.iml" />
       <module fileurl="file://$PROJECT_DIR$/dp/dp.iml" filepath="$PROJECT_DIR$/dp/dp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exam/exam.iml" filepath="$PROJECT_DIR$/exam/exam.iml" />
       <module fileurl="file://$PROJECT_DIR$/greed/greed.iml" filepath="$PROJECT_DIR$/greed/greed.iml" />
       <module fileurl="file://$PROJECT_DIR$/input_output/input_output.iml" filepath="$PROJECT_DIR$/input_output/input_output.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaSE/javaSE.iml" filepath="$PROJECT_DIR$/javaSE/javaSE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/offer/offer.iml" filepath="$PROJECT_DIR$/offer/offer.iml" />
     </modules>
   </component>
 </project>

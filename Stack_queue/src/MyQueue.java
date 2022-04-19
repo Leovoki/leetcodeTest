@@ -14,6 +14,7 @@ public class MyQueue {
         a.peek();
         a.pop();
         deque.poll();
+        deque.offer(1);
         
         deque.offer(1);
     }
