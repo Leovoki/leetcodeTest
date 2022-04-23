@@ -1,9 +1,12 @@
+/*
 package _105;
 
+*/
 /**
  * @author Leovoki
  * @version 1.0 update on 2022/2/22
- */
+ *//*
+
 public class Solution {
     public static void main(String[] args) {
         int[] preOrder = {1,2};
@@ -64,3 +67,4 @@ public class Solution {
         return node;
     }
 }
+*/

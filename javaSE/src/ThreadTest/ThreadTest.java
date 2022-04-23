@@ -16,17 +16,21 @@ public class ThreadTest {
     }
 }
 class OtherThread implements Runnable {
-    private volatile Integer num = 10;
+    private Integer num = 10;
     @Override
     public void run() {
-            while(num > 0) {
-                try {
-                    Thread.sleep(100);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
+        while(true) {
+            synchronized (num) {
+                if(num > 0) {
+                    try {
+                        Thread.sleep(100);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    System.out.println(Thread.currentThread().getName() + "抢到第" + num-- + "张票");
                 }
-                System.out.println(Thread.currentThread().getName() + "抢到第" + num-- + "张票");
             }
+        }
 
     }
 }

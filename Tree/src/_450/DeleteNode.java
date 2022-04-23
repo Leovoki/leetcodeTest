@@ -1,7 +1,7 @@
+/*
 package _450;
 
-import publicTool.ConstructTree;
-import publicTool.TreeNode;
+import javax.swing.tree.TreeNode;
 
 public class DeleteNode {
     public static void main(String[] args) {
@@ -49,3 +49,4 @@ public class DeleteNode {
         return node;
     }
 }
+*/
