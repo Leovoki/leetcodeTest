@@ -16,7 +16,10 @@ public class Solution {
         StringBuilder sb = new StringBuilder();
         char[] str = {'a','p','p','l','e'};
         sb.append(str,1,3);
+        sb.insert(0,'q');
         System.out.println("sb = " + sb);
+        Map<Integer,Integer> map = new HashMap<>();
+
 
 
     }
