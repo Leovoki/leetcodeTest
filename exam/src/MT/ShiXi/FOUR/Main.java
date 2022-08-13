@@ -1,4 +1,4 @@
-package MT.FOUR;
+package MT.ShiXi.FOUR;
 
 import java.util.Scanner;
 

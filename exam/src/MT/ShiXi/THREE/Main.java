@@ -1,6 +1,5 @@
-package MT.THREE;
+package MT.ShiXi.THREE;
 
-import java.awt.image.ImageProducer;
 import java.util.*;
 
 public class Main {
