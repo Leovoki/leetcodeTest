@@ -39,7 +39,7 @@ public class SensitiveFilter {
         }
     }
 
-    //将敏感词添加到前缀树中去
+/*    //将敏感词添加到前缀树中去
     private void addKeyWord(String keyWord) {
         TrieNode tempNode = rootNode;
         for(int i = 0; i < keyWord.length(); i++) {
@@ -59,7 +59,7 @@ public class SensitiveFilter {
                 tempNode.setKeyWordEnd(true);
             }
         }
-    }
+    }*/
 
     /**
      *过滤敏感词
@@ -120,10 +120,10 @@ public class SensitiveFilter {
     }
 
     //判断是否为符号
-    private boolean isSymbol(Character c) {
+/*    private boolean isSymbol(Character c) {
         // 0x2E80~0x9FFF 是东亚文字范围
         return !CharUtils.isAsciiAlphanumeric(c) && (c < 0x2E80 || c > 0x9FFF);
-    }
+    }*/
 
 
 
