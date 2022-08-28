@@ -37,6 +37,7 @@ public class Main {
                 }
             }
         }
+        return 0;
     }
 
     public static int dfs(int row, int col, int index,int[][] matrix) {
