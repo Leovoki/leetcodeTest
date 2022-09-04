@@ -6,8 +6,8 @@ package _34;
  */
 public class Solution {
     public static void main(String[] args) {
-        int[] nums = {5,7,7,8,8,10};
-        int target = 8;
+        int[] nums = {2,2};
+        int target = 3;
         System.out.println(searchRange(nums, target));
 
     }
@@ -32,7 +32,7 @@ public class Solution {
                 right = mid;//因为永远是向下取整的，right=mid不会死循环
             }
         }
-        //最终结果一定是错位的
+        //最终结果有可能是错位的，但是left会在正确的位置上
         if(nums[left] == target) {
             result[0] = left;//这里只能写left,不然惠溢出
         } else {

@@ -16,7 +16,7 @@ class Solution {
         int[] freq = new int[26];
         int result = 0;
         for(fast = 0; fast < s.length();fast++) {
-            if(set.add(str[fast])) {
+            if(!set.add(str[fast])) {//如果set存在，则会返回false
                 //有重复
                 freq[str[fast]-'a']++;
                 while(freq[str[fast]-'a'] > 1) {
