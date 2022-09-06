@@ -11,6 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="LeetCode" target="6" />
       <module name="Tree" target="1.8" />
       <module name="Tree (1)" target="1.8" />
     </bytecodeTargetLevel>
