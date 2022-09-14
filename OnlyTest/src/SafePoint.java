@@ -3,6 +3,16 @@ import java.util.Map;
 
 public class SafePoint {
     public static void main(String[] args) throws InterruptedException {
+        Thread t0 = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                while(true) {
+                    System.out.println("大循环还在继续！");
+                }
+            }
+        });
+        t0.start();
+
         Thread t1 = new Thread(new Runnable() {
             @Override
             public void run() {
