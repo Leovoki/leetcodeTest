@@ -2,12 +2,19 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class SafePoint {
+    private static  Map<Object, String> map = new HashMap<>();
     public static void main(String[] args) throws InterruptedException {
         Thread t0 = new Thread(new Runnable() {
             @Override
             public void run() {
                 while(true) {
                     System.out.println("大循环还在继续！");
+                    try {
+                        Thread.sleep(10);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    map.put(new Object(), new String("a"));
                 }
             }
         });
@@ -19,7 +26,7 @@ public class SafePoint {
                 Map<Object, String> map = new HashMap<>();
                 for(int i = Integer.MAX_VALUE; i > 0; i--) {
                         //System.out.println("。");
-                    //map.put(new Object(), String.valueOf(i));
+                    map.put(new Object(), String.valueOf(i));
                 }
                 System.out.println(Thread.currentThread().getName() + ":大循环结束");
             }
