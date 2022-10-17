@@ -30,7 +30,7 @@ public class Main {
         }
         int cnt = 0;
         for(int i = 0; i < que.size(); i++) {
-            que.
+            //？
         }
         if(que.isEmpty()) {
             return true;
